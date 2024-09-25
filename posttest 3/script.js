@@ -4,6 +4,8 @@ const aboutmebtn = document.getElementById("about_me_btn")
 const aboutmesection = document.getElementById("about_me_section")
 const icon = document.getElementById("icon")
 
+alert("Welcome To Filmefy");
+
 hamburger.addEventListener("click", () => {
     links.classList.toggle("show");
 })
