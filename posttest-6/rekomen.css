@@ -1,0 +1,142 @@
+:root {
+    --background-color: #141414;
+    --text-color: #fff;
+    --header-bg-color: #141414;
+    --primary-color: #DB0000;
+    --container-color: #1c1c1c;
+    --table-color: #2c2c2c;
+}
+
+.light-mode {
+    --background-color: #fff;
+    --text-color: #141414;
+    --header-bg-color: #fff;
+    --primary-color: #DB0000;
+    --container-color: #D3D3D3;
+    --table-color: #E5E4E2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+div h1.t {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.containert {
+    margin: 50px auto;
+    max-width: 100%;
+    padding: 20px;
+    background-color: var(--container-color);
+    border-radius: 10px;
+    border:#D3D3D3;
+}
+
+
+.rtable {
+    width: 100%;
+    border:#D3D3D3;
+    background-color: #1c1c1c;
+    color: var(--text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.table-head {
+    background-color: #e50914;
+    color: var(--text-color);
+    padding: 12px;
+    font-weight: bold;
+}
+
+.table-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-data {
+    padding: 12px;
+    text-align: left;
+    background-color: var(--table-color);
+    border-bottom: 1px solid #444;
+}
+
+.rtable tr:nth-child(even) {
+    background-color: var(--table-color);
+}
+
+.rtable tr:hover {
+    background-color: #333;
+}
+
+.button-UD {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e50914;
+    color: var(--text-color);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #e50914;
+    transform: scale(1.05);
+}
+
+.edit-data {
+    background-color: #007bff;
+}
+
+.edit-data:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.hapus-data {
+    background-color: #dc3545;
+}
+
+.hapus-data:hover {
+    background-color: #c82333;
+    color: #fff;
+}
+
+.fa-pen,
+.fa-trash-can {
+    margin-right: 5px;/
+}
+
+.table-data .file-name {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+.table-data img {
+    margin-left: -10px;
+    width: 150px; /* Atur lebar gambar */
+    height: auto; /* Otomatis sesuaikan tinggi sesuai proporsi */
+    display: block;
+}
+
+
+
